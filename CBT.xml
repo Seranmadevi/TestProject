@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+ 	<test name="EdgeTest">
+ 		<parameter name="browser" value="IE" />
+ 		<classes>
+ 			<class name="cbtsmoke.CBT" />
+ 		</classes>
+ 	</test>
+ 	
+</suite>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-18T09:00:17 IST" name="Default suite" finished-at="2022-01-18T09:01:49 IST" duration-ms="91463">
+    <groups>
+    </groups>
+    <test started-at="2022-01-18T09:00:17 IST" name="Default test" finished-at="2022-01-18T09:01:49 IST" duration-ms="91463">
+      <class name="smokeflow.NewCustProd">
+        <test-method is-config="true" signature="chromelaunch()[pri:0, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:00:17 IST" name="chromelaunch" finished-at="2022-01-18T09:00:29 IST" duration-ms="11288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromelaunch -->
+        <test-method signature="Login(java.lang.String,java.lang.String)[pri:1, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:00:31 IST" name="Login" description="CashWrap_Login" data-provider="LoginData" finished-at="2022-01-18T09:00:52 IST" duration-ms="21335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[@stra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:00:52 IST" name="getResult" finished-at="2022-01-18T09:00:53 IST" duration-ms="282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=NewCustProd.Login(java.lang.String,java.lang.String)[pri:1, instance:smokeflow.NewCustProd@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="New_Cust_Creation(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:00:53 IST" name="New_Cust_Creation" description="NewCustomer" data-provider="CustomerData" finished-at="2022-01-18T09:01:13 IST" duration-ms="20015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4094949611]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Any Name]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[any@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- New_Cust_Creation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:13 IST" name="getResult" finished-at="2022-01-18T09:01:13 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=New_Cust_Creation status=SUCCESS method=NewCustProd.New_Cust_Creation(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:smokeflow.NewCustProd@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ItemSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:13 IST" name="ItemSelection" description="Item_Selection" data-provider="ItemData" finished-at="2022-01-18T09:01:18 IST" duration-ms="4898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IS13089]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ON & ON HRB T-PST]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[175.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemSelection -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:18 IST" name="getResult" finished-at="2022-01-18T09:01:18 IST" duration-ms="132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ItemSelection status=SUCCESS method=NewCustProd.ItemSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:smokeflow.NewCustProd@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ItemSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:18 IST" name="ItemSelection" description="Item_Selection" data-provider="ItemData" finished-at="2022-01-18T09:01:22 IST" duration-ms="4139" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IS13187]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ELEMENTS CC SHMPOO]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[630.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemSelection -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:22 IST" name="getResult" finished-at="2022-01-18T09:01:22 IST" duration-ms="161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ItemSelection status=SUCCESS method=NewCustProd.ItemSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:smokeflow.NewCustProd@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ItemSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:22 IST" name="ItemSelection" description="Item_Selection" data-provider="ItemData" finished-at="2022-01-18T09:01:27 IST" duration-ms="4436" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IS13188]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ELEMENTS A.D. SHMP]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[945.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ItemSelection -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:27 IST" name="getResult" finished-at="2022-01-18T09:01:27 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ItemSelection status=SUCCESS method=NewCustProd.ItemSelection(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:smokeflow.NewCustProd@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="PaymentType(java.lang.String)[pri:4, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:27 IST" name="PaymentType" description="Payment_cash_card" data-provider="PaymentData" finished-at="2022-01-18T09:01:48 IST" duration-ms="20785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[200.00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentType -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:48 IST" name="getResult" finished-at="2022-01-18T09:01:48 IST" duration-ms="199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PaymentType status=SUCCESS method=NewCustProd.PaymentType(java.lang.String)[pri:4, instance:smokeflow.NewCustProd@29d80d2b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:smokeflow.NewCustProd@29d80d2b]" started-at="2022-01-18T09:01:48 IST" name="driverclose" finished-at="2022-01-18T09:01:49 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- smokeflow.NewCustProd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
